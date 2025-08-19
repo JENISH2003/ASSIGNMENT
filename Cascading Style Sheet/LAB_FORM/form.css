@@ -1,0 +1,35 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    justify-items: center;
+}
+form{
+    margin: 20px;
+}
+table{
+    background-color: aqua;
+    align-items: center;
+    margin: 20px;
+    
+}
+fieldset{
+    display: inline-block;
+    border: 2px solid blue;
+}
+tr td{
+    margin: 20px;
+    padding: 10px;
+}
+#btnSubmit{
+    background: red;
+    border-radius: 5px;
+    height: 20px;
+    width: 60px;
+    align-items: center;
+    padding: 1px;
+}
+
+#btnSubmit:hover{
+    background-color: rgb(10, 82, 58);
+    color: white;
+}

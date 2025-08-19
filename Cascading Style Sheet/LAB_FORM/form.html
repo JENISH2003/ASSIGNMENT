@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+    <link rel="stylesheet" href="form.css" />
+  </head>
+  <body>
+    <form action="">
+        <fieldset>
+            <legend>CONTACT FORM</legend>
+      <table>
+        <tr>
+          <td><label for="fn">First Name : </label></td>
+          <td><input type="text" name="" id="fn" /></td>
+        </tr>
+        <tr>
+          <td><label for="email">Email : </label></td>
+          <td><input type="email" name="" id="email" /></td>
+        </tr>
+        <tr>
+            <td><label for="phoneNumber">Phone Number : </label></td>
+            <td><input type="tel" name="" id="phoneNumber"></td>
+        </tr>
+        <tr>
+            <td><label for="subject">Subject :</label></td>
+            <td><select name="" id="subject">
+                <option value="">-- Select Subject --</option>
+                <option value="general">General Inquiry</option>
+                <option value="support">Support</option>
+                <option value="feedback">Feedback</option>
+                <option value="other">Other</option>            </select></td>
+        </tr>
+
+        <tr>
+            <td><label for="message">Message :</label></td>
+            <td><textarea name="" id="message"></textarea></td>
+        </tr>
+        <tr class="btn">
+            <td colspan="2" align="center"><input type="submit" name="" id="btnSubmit"></td>
+        </tr>
+        
+      </table>
+      </fieldset>
+    </form>
+  </body>
+</html>
