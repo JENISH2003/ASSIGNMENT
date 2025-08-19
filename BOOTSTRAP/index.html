@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap Cards</title>
+  <link rel="stylesheet" href="bootstrap.min.css">
+  <style>
+    .card img {
+      height: 180px;
+      object-fit: cover;
+    }
+    .card-body {
+      display: flex;
+      flex-direction: column;
+    }
+
+  </style>
+</head>
+<body>
+  <div class="container text-center py-4">
+    <h2 class="bg-primary text-white py-2 rounded">Product Info</h2>
+
+    <div class="d-flex flex-wrap justify-content-around gap-3 mt-4">
+
+      <!-- Fogg -->
+      <div class="card h-100" style="width: 250px;">
+        <img src="Images/Fogg.jpg" class="card-img-top" alt="Fogg Perfume">
+        <div class="card-body">
+          <h5 class="card-title text-danger">Fogg Perfume</h5>
+          <p class="card-text">Long-lasting body spray with fresh fragrance, perfect for daily use and special occasions to keep you confident.</p>
+          <a href="#" class="btn btn-primary">Buy Now</a>
+        </div>
+      </div>
+
+      <!-- Goggles -->
+      <div class="card h-100" style="width: 250px;">
+        <img src="Images/Goggles.jpg" class="card-img-top" alt="Stylish Goggles">
+        <div class="card-body">
+          <h5 class="card-title text-danger">Stylish Goggles</h5>
+          <p class="card-text">Trendy sunglasses offering UV protection and lightweight design, ideal for travel, outdoor activities, and everyday fashion.</p>
+          <a href="#" class="btn btn-primary">Buy Now</a>
+        </div>
+      </div>
+
+      <!-- Headphone -->
+      <div class="card h-100" style="width: 250px;">
+        <img src="Images/Headphone.jpg" class="card-img-top" alt="Wireless Headphone">
+        <div class="card-body">
+          <h5 class="card-title text-danger">Wireless Headphone</h5>
+          <p class="card-text">Comfortable wireless headphone with deep bass, clear sound quality, and long battery life, great for music or gaming.</p>
+          <a href="#" class="btn btn-primary">Buy Now</a>
+        </div>
+      </div>
+
+      <!-- Shoes -->
+      <div class="card h-100" style="width: 250px;">
+        <img src="Images/Shoes.jpg" class="card-img-top" alt="Sports Shoes">
+        <div class="card-body">
+          <h5 class="card-title text-danger">Sports Shoes</h5>
+          <p class="card-text">Durable lightweight running shoes with cushioned sole, designed for comfort, performance, and stylish look in daily wear.</p>
+          <a href="#" class="btn btn-primary">Buy Now</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <script src="bootstrap.bundle.min.js"></script>
+</body>
+</html>
