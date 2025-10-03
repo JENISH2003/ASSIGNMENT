@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      let no = 1;
+      let evenSum = 0;
+      let oddSum = 0;
+      
+      while (no <= 20) {
+        if (no % 2 == 0) {
+          evenSum = evenSum + no;
+        }
+        else{
+            oddSum = oddSum+ no
+
+        }
+        no++;
+      }
+      document.write("<br> Sum of Even Number is : " + evenSum);
+      document.write("<br> Sum of Odd Number is : " + oddSum);
+    </script>
+  </body>
+</html>
