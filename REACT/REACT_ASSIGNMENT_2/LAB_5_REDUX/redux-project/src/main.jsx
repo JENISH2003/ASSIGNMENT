@@ -4,10 +4,11 @@ import './index.css'
 import App from './App.jsx'
 import { Provider } from 'react-redux'
 import RtkStore from './RTK/RtkStore.jsx'
+import { UserStore } from './UserCrud/UserStore.js'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <Provider store={RtkStore}>
+    <Provider store={UserStore}>
     <App />
     </Provider>
   </StrictMode>,
