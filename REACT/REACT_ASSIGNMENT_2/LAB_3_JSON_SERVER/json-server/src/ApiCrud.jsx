@@ -1,6 +1,6 @@
 import axios from "axios";
 import React, { useEffect, useState } from "react";
-import "./index.css"; 
+import "./index.css";
 
 const ApiCrud = () => {
   const [data, setData] = useState({
@@ -17,13 +17,11 @@ const ApiCrud = () => {
     disp();
   }, []);
 
-  
   const handleChange = (e) => {
     const { name, value } = e.target;
     setData({ ...data, [name]: value });
   };
 
-  
   const disp = () => {
     setLoading(true);
     axios
@@ -32,7 +30,6 @@ const ApiCrud = () => {
       .finally(() => setLoading(false));
   };
 
- 
   const saveData = (e) => {
     e.preventDefault();
     setLoading(true);
@@ -53,7 +50,6 @@ const ApiCrud = () => {
     setId("");
   };
 
- 
   const delData = (id) => {
     setLoading(true);
     axios
@@ -78,7 +74,6 @@ const ApiCrud = () => {
     <div>
       <h2>CRUD with JSON Server</h2>
 
-      
       <form onSubmit={saveData}>
         <label>Name: </label>
         <input
